@@ -5,8 +5,8 @@ function getNumberInfo() {
     // Get the Value of the Input Field
     let num = document.getElementById('mynumber').value;
     // Check if Number is Valid
-    if (isNaN(num) || num.toString().length == 0 || num<1000 || num>9999 || !Number.isInteger(Number(num))) {
-        txt += `Invalid Input.  Please enter the year between 1000 and 9999 as a whole number.`;
+    if (isNaN(num) || num.toString().length == 0 || num<1600 || num>9999 || !Number.isInteger(Number(num))) {
+        txt += `Invalid Input.  Please enter the year between 1600 and 9999 as a whole number.`;
     } else {
         // Get Number Information
         txt += `You have entered the Year ${num}. <p>`;
