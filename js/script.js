@@ -9,7 +9,7 @@ function getNumberInfo() {
         txt += `Invalid Input.  Please enter the year between 1000 and 9999 as a whole number.`;
     } else {
         // Get Number Information
-        txt += `You have entered the Year ${num}. </p>`;
+        txt += `You have entered the Year ${num}. <p>`;
         // Check if the Number is a Leap Year
         if (isLeapYear(num)) {
             txt += `${num} is a Leap Year.`;
