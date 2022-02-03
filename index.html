@@ -14,5 +14,22 @@
     <header class='container-fluid text-center'>
         <h1>Leap Year</h1>
     </header>
+
+    <!-- Set Up Form -->
+    <section class='container-fluid'>
+        <form>
+            <!-- Set Up Label and Input -->
+            <article class='mb-3'>
+                <label for='mynumber' class='form-label'>Year (Required)</label>
+                <input class='form-control' placeholder='Enter year between 1000 and 9999 (e.g. 2020)' id='mynumber' title='Enter year between 1000 and 9999 (e.g. 2020)'>
+            </article>
+
+            <!-- Set Up and Center Buttons -->
+            <article class='d-grid gap-2 d-flex justify-content-center'>
+                <button type='button' onclick="getNumberInfo()" class='btn btn-info'>Submit</button>
+                <button type='reset' onclick="clearInfo()" class='btn btn-warning'>Reset</button>
+            </article>
+        </form>
+    </section>
 </body>
 </html>
