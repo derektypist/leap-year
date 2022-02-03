@@ -21,3 +21,14 @@ function getNumberInfo() {
     // Display Information in the Browser Window
     document.getElementById('numinfo').innerHTML = txt;
 }
+
+// Function to Determine if the Number (Year) is a Leap Year
+function isLeapYear(year) {
+    return (year % 4 == 0 && year % 100 != 0) || (year % 100 == 0 && year % 400 == 0) ? true : false;
+}
+
+// Function to Clear Information
+function clearInfo() {
+    let txt = "";
+    document.getElementById('numinfo').innerHTML = txt;
+}
