@@ -10,12 +10,12 @@ In the input field, enter the year between 1600 and 9999 (e.g. 2020) as a whole 
 
 **User Stories**
 
-As a user, I expect to get an invalid input if:
+As a user, I expect to get an invalid input error message if I do any or all of:
 
-* I do not enter anything in the input field
-* I enter a number less than 1600 or greater than 9999
-* I enter a number, but it is not an integer
-* I enter anything other than a number
+    * Not enter anything in the input field
+    * Entering a number less than 1600 or greater than 9999
+    * Entering a number, but it is not an integer
+    * Entering anything other than a number (e.g. text such as bus)
 
 As a user, providing my input is valid, I expect to see something like:
 
@@ -28,3 +28,29 @@ As a user, if I click on the Reset Button, I expect the information to be cleare
 
 Year is an integer between 1600 and 9999.  The function `isLeapYear(year)` returns `true` or `false`.
 
+## Features
+
+Allows the user to enter a number (the year) as well as seeing it that year is a leap year.  Performs checks on valid input.
+
+## Technologies
+
+Uses HTML5, CSS3, JavaScript, Bootstrap 5.1.3 and Google Fonts.
+
+## Testing
+
+Ensure all the user stories have been met.
+
+## Deployment
+
+Deployed on [GitHub Pages](https://derektypist.github.io/leap-year) at the main branch.
+
+## Credits
+
+### Content
+
+Written by me.
+
+### Acknowledgements
+
+- [Wikipedia](https://en.wikipedia.org/wiki/Main_Page)
+- [FreeCodeCamp](https://www.freecodecamp.org)
